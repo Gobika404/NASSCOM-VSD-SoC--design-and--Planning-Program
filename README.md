@@ -139,7 +139,7 @@ The complete OpenLane flow includes:
 
 The flow ensures functional correctness and manufacturability at each stage.
 
-Practical Work – Day 1
+## Practical Work – Day 1
 
 Hands-on tasks performed include:
 

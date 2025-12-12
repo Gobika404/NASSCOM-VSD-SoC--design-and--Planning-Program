@@ -148,6 +148,7 @@ Setting up the OpenLane working environment
 Running synthesis for sample RTL designs
 
 Inspecting standard cell libraries
+/home/vsduser/Pictures/Screenshot from 2025-12-12 11-25-56.png
 
 Observing floorplan parameters
 

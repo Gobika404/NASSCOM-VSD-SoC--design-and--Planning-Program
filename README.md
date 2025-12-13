@@ -5,6 +5,8 @@ Digital VLSI Soc Design and Planning Training
 
 This document summarizes the concepts and practical work completed during the VLSI SoC Design and Planning workshop. The program focused on understanding how a digital hardware description written in RTL is transformed into a manufacturable GDSII layout using the OpenLane open-source ASIC design flow. The workshop covered both theoretical foundations and hands-on implementation steps.
 
+# DAY1
+
 ## Overview of RTL to GDSII Flow
 
 The RTL to GDSII flow describes the complete transformation of a behavioral hardware description into its physical layout. This process includes synthesis, floor planning, placement, clock tree construction, routing, and a set of verification checks. The objective of the flow is to ensure that the final layout accurately reflects the intended logical behavior, meets timing requirements, and satisfies foundry design rules.
@@ -139,7 +141,7 @@ The complete OpenLane flow includes:
 
 The flow ensures functional correctness and manufacturability at each stage.
 
-## Practical Work – Day 1
+## Lab Work – Day 1
 
 Hands-on tasks performed include:
 
@@ -167,6 +169,84 @@ Understanding basic configuration files used in each stage
 
 ## SYNTHESIS SUCCESSFUL 
 ![Screenshot 11-39-03](Screenshot%20from%202025-12-12%2011-39-03.png)
+
+
+
+## Day 2: Floorplanning Concepts and Standard Cell Placement
+
+## Overview
+Day 2 of the workshop focused on chip floorplanning fundamentals, understanding good versus bad floorplans, and learning the basics of library cells and placement. The session combined conceptual learning with hands-on implementation using the OpenLANE ASIC flow and layout visualization through MAGIC.
+
+---
+
+## Good Floorplan vs Bad Floorplan
+Floorplanning is a critical step in ASIC design as it directly impacts area utilization, routing quality, power distribution, and timing closure. A good floorplan enables smooth routing and scalability, while a bad floorplan can cause congestion, timing violations, and design inefficiencies.
+
+Characteristics of a good floorplan:
+- Balanced utilization
+- Adequate whitespace for routing
+- Proper aspect ratio
+- Efficient I/O and power structure placement
+
+---
+
+## Chip Floorplanning Fundamentals
+
+### Core
+The core is the central region of the chip where all logic elements such as standard cells, macros, and IP blocks are placed. This area contains the functional logic of the design.
+
+### Die
+The die surrounds the core and includes I/O pads, power pads, and boundary regions. Multiple dies are fabricated on a single silicon wafer to improve manufacturing efficiency.
+
+The core dimensions depend on the design netlist, while the die dimensions are derived from the core with additional margins.
+
+---
+
+## Utilization Factor
+The utilization factor represents how much of the core area is occupied by logic.
+Utilization Factor = (Area occupied by netlist) / (Total core area)
+
+### Observations
+- A utilization factor of 1 indicates a poor floorplan.
+- No space is left for routing or future design changes.
+- Practical designs maintain utilization less than 1.
+
+---
+
+## Aspect Ratio
+The aspect ratio defines the shape of the core.
+Aspect Ratio = (Height of core) / (Width of core)
+
+### Interpretation
+- Aspect ratio equal to 1 represents a square core.
+- Aspect ratio not equal to 1 represents a rectangular core.
+- A suitable aspect ratio helps reduce congestion and improves placement efficiency.
+
+---
+
+## Floorplanning Examples
+
+### Case 1: Fully Utilized Core
+- Core area equals netlist area
+- Utilization factor equals 1
+- Aspect ratio equals 1
+- Considered a poor floorplan due to lack of routing space
+
+### Case 2: Optimized Core Area
+- Core area larger than netlist area
+- Utilization factor less than 1
+- Rectangular core
+- Allows better routing and future expansion
+
+---
+
+## Day 2 Labs: Floorplanning Using OpenLANE
+
+### Running the Floorplan
+The floorplanning stage was executed using the OpenLANE command:
+
+
+
 
 
 

@@ -155,3 +155,6 @@ Observing floorplan parameters
 Opening layout files using Magic
 
 Understanding basic configuration files used in each stage
+
+![Terminal screenshot](Screenshot%20from%202025-12-12%2011-25-56.png)
+

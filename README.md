@@ -245,6 +245,25 @@ Aspect Ratio = (Height of core) / (Width of core)
 ### Running the Floorplan
 The floorplanning stage was executed using the OpenLANE command:
 
+![Screenshot 11-40-00](Screenshot%20from%202025-12-12%2011-40-00.png)
+
+![Screenshot 11-40-42](Screenshot%20from%202025-12-12%2011-40-42.png)
+
+![Screenshot 11-56-00](Screenshot%20from%202025-12-12%2011-56-00.png)
+
+![Screenshot 12-26-48](Screenshot%20from%202025-12-12%2012-26-48.png)
+
+![Screenshot 12-51-14](Screenshot%20from%202025-12-12%2012-51-14.png)
+
+![Screenshot 12-51-31](Screenshot%20from%202025-12-12%2012-51-31.png)
+
+![Screenshot 12-52-31](Screenshot%20from%202025-12-12%2012-52-31.png)
+
+![Screenshot 13-25-45](Screenshot%20from%202025-12-12%2013-25-45.png)
+
+![Screenshot 13-28-41](Screenshot%20from%202025-12-12%2013-28-41.png)
+
+
 
 
 

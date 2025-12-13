@@ -321,7 +321,18 @@ The CMOS inverter layout was created using the MAGIC layout editor following Sky
 Once the layout was completed, parasitic extraction was performed to capture resistive and capacitive effects.
 
 
-# Day 3 Labs: 
+# Day 3 Labs: Inverter Characterization
+
+![Screenshot 16-02-46](Screenshot%20from%202025-12-12%2016-02-46.png)
+
+![Screenshot 16-02-55](Screenshot%20from%202025-12-12%2016-02-55.png)
+
+![Screenshot 16-06-20](Screenshot%20from%202025-12-12%2016-06-20.png)
+
+![Screenshot 16-18-34](Screenshot%20from%202025-12-12%2016-18-34.png)
+
+![Screenshot 16-18-38](Screenshot%20from%202025-12-12%2016-18-38.png)
+
 
 
 

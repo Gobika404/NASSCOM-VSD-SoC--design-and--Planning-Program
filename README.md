@@ -148,13 +148,25 @@ Setting up the OpenLane working environment
 Running synthesis for sample RTL designs
 
 Inspecting standard cell libraries
-/home/vsduser/Pictures/Screenshot from 2025-12-12 11-25-56.png
 
 Observing floorplan parameters
 
 Opening layout files using Magic
 
 Understanding basic configuration files used in each stage
-
+# COMMANDS USED
 ![Terminal screenshot](Screenshot%20from%202025-12-12%2011-25-56.png)
+
+![Screenshot 11-28-13](Screenshot%20from%202025-12-12%2011-28-13.png)
+
+![Screenshot 11-34-17](Screenshot%20from%202025-12-12%2011-34-17.png)
+
+![Screenshot 11-38-33](Screenshot%20from%202025-12-12%2011-38-33.png)
+
+![Screenshot 11-38-57](Screenshot%20from%202025-12-12%2011-38-57.png)
+
+## SYNTHESIS SUCCESSFUL 
+![Screenshot 11-39-03](Screenshot%20from%202025-12-12%2011-39-03.png)
+
+
 

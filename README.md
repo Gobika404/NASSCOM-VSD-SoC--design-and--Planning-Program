@@ -263,6 +263,68 @@ The floorplanning stage was executed using the OpenLANE command:
 
 ![Screenshot 13-28-41](Screenshot%20from%202025-12-12%2013-28-41.png)
 
+# Day 3: Inverter Characterization, Library Cells, and Routing Basics
+
+## Overview
+Day 3 of the workshop focused on standard cell design and characterization using Sky130 model files. The session covered CMOS inverter simulation using ngspice, extraction of static and dynamic parameters, creation of layout views using MAGIC, and an introduction to LEF files, routing tracks, and DRC debugging.
+
+
+
+## CMOS Inverter Simulation Using ngspice
+A CMOS inverter was simulated using Sky130 device models to understand both static and dynamic behavior. DC and transient analyses were performed using ngspice.
+
+
+
+## Static Characteristics of CMOS Inverter
+
+### Switching Threshold
+The input voltage at which the inverter output switches from logic high to logic low.
+
+### Input Low Voltage
+The maximum input voltage interpreted as logic 0.
+
+### Input High Voltage
+The minimum input voltage interpreted as logic 1.
+
+### Output Low Voltage
+The output voltage level corresponding to logic 0.
+
+### Output High Voltage
+The output voltage level corresponding to logic 1.
+
+### Noise Margins
+Noise margins represent the tolerance of the inverter to noise and are defined for both logic high and logic low regions.
+
+
+
+## Dynamic Characteristics of CMOS Inverter
+
+### Propagation Delay
+The delay between a change in input and the corresponding change in output.
+
+### Rise Time
+The time taken by the output to transition from low to high.
+
+### Fall Time
+The time taken by the output to transition from high to low.
+
+
+## Standard Cell Design Using MAGIC
+
+### Inverter Layout Creation
+The CMOS inverter layout was created using the MAGIC layout editor following Sky130 design rules. Proper placement of transistors, diffusion, poly, and metal layers was ensured based on the schematic.
+
+
+## Parasitic Extraction
+
+### Extraction Process
+Once the layout was completed, parasitic extraction was performed to capture resistive and capacitive effects.
+
+
+# Day 3 Labs: 
+
+
+
 
 
 

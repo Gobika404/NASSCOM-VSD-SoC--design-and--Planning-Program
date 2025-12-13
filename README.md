@@ -347,6 +347,12 @@ Once the layout was completed, parasitic extraction was performed to capture res
 
 ![Screenshot 13-02-54](Screenshot%20from%202025-12-13%2013-02-54.png)
 
+![Screenshot 17-08-58](Screenshot%20from%202025-12-13%2017-08-58.png)
+
+![Screenshot 17-16-53](Screenshot%20from%202025-12-13%2017-16-53.png)
+
+![Screenshot 17-16-58](Screenshot%20from%202025-12-13%2017-16-58.png)
+
 
 
 

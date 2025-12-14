@@ -450,6 +450,82 @@ The inverter layout was opened in MAGIC for inspection and modification.
 
 ![Screenshot from 2025-12-14 14-32-45](Screenshot%20from%202025-12-14%2014-32-45.png)
 
+![Screenshot from 2025-12-14 19-48-14](Screenshot%20from%202025-12-14%2019-48-14.png)
+
+![Screenshot from 2025-12-14 20-34-20](Screenshot%20from%202025-12-14%2020-34-20.png)
+
+![Screenshot from 2025-12-14 20-34-13](Screenshot%20from%202025-12-14%2020-34-13.png)
+
+![Screenshot from 2025-12-14 19-50-02](Screenshot%20from%202025-12-14%2019-50-02.png)
+
+![Screenshot from 2025-12-14 19-49-57](Screenshot%20from%202025-12-14%2019-49-57.png)
+
+![Screenshot from 2025-12-14 19-49-52](Screenshot%20from%202025-12-14%2019-49-52.png)
+
+![Screenshot from 2025-12-14 19-49-45](Screenshot%20from%202025-12-14%2019-49-45.png)
+
+![Screenshot from 2025-12-14 19-49-39](Screenshot%20from%202025-12-14%2019-49-39.png)
+
+![Screenshot from 2025-12-14 19-49-32](Screenshot%20from%202025-12-14%2019-49-32.png)
+
+![Screenshot from 2025-12-14 19-49-13](Screenshot%20from%202025-12-14%2019-49-13.png)
+
+![Screenshot from 2025-12-14 19-48-29](Screenshot%20from%202025-12-14%2019-48-29.png)
+
+![Screenshot from 2025-12-14 19-48-23](Screenshot%20from%202025-12-14%2019-48-23.png)
+
+
+# Day 5: Power Planning, Routing, and GDSII Generation
+
+## Overview
+The final day of the workshop focused on completing the physical design flow by generating the Power Distribution Network (PDN), performing routing, validating timing after routing, and producing the final GDSII file for fabrication. This stage marks the transition from design implementation to tape-out readiness.
+
+---
+
+## Power Distribution Network in OpenLANE
+
+## Role of PDN
+A Power Distribution Network ensures reliable delivery of power and ground to every standard cell and macro within the chip. A well-designed PDN minimizes voltage drop, improves signal integrity, and enhances overall chip stability.
+
+The PDN primarily distributes:
+- VDD (power)
+- VSS (ground)
+
+across the core using rails and straps.
+
+---
+
+## PDN Generation Flow
+
+## gen_pdn Execution
+OpenLANE provides the `gen_pdn` procedure to automatically generate the power grid. This step constructs horizontal and vertical power rails and connects them to all power pins in the design.
+
+The PDN stage relies on predefined technology and library information to maintain compatibility with the routing and placement stages.
+
+---
+
+## PDN Configuration Dependencies
+
+## Required Variables
+Before executing PDN generation, certain configuration variables must be correctly defined.
+
+## LIB_SYNTH_COMPLETE
+This variable must be present in the `config.tcl` file.
+It is internally referenced by the PDN scripts to access complete synthesis libraries.
+
+## LEF_MERGED_UNPADDED
+This variable points to the merged LEF file without padding.
+It provides structural information required for power grid creation.
+
+Improper configuration of these variables may cause PDN generation to fail.
+
+---
+
+## Routing Stage
+
+## Preparing for Routing
+Before initiating routing, key routing-related variables were inspected to confirm the current design state.
+
 
 
 

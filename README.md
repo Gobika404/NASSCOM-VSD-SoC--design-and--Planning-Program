@@ -529,6 +529,11 @@ Improper configuration of these variables may cause PDN generation to fail.
 ## Preparing for Routing
 Before initiating routing, key routing-related variables were inspected to confirm the current design state.
 
+![Screenshot from 2025-12-14 22-34-31](Screenshot%20from%202025-12-14%2022-34-31.png)
+
+
+
+
 
 
 

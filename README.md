@@ -418,7 +418,37 @@ This information guides both cell layout and routing feasibility.
 The inverter layout was opened in MAGIC for inspection and modification.
 
 
+![Screenshot from 2025-12-14 06-42-46](Screenshot%20from%202025-12-14%2006-42-46.png)
 
+![Screenshot from 2025-12-14 06-43-28](Screenshot%20from%202025-12-14%2006-43-28.png)
+
+![Screenshot from 2025-12-14 06-46-17](Screenshot%20from%202025-12-14%2006-46-17.png)
+
+![Screenshot from 2025-12-14 06-52-26](Screenshot%20from%202025-12-14%2006-52-26.png)
+
+![Screenshot from 2025-12-14 13-17-16](Screenshot%20from%202025-12-14%2013-17-16.png)
+
+![Screenshot from 2025-12-14 13-33-02](Screenshot%20from%202025-12-14%2013-33-02.png)
+
+![Screenshot from 2025-12-14 13-33-05](Screenshot%20from%202025-12-14%2013-33-05.png)
+
+![Screenshot from 2025-12-14 13-35-53](Screenshot%20from%202025-12-14%2013-35-53.png)
+
+![Screenshot from 2025-12-14 13-52-48](Screenshot%20from%202025-12-14%2013-52-48.png)
+
+![Screenshot from 2025-12-14 14-00-31](Screenshot%20from%202025-12-14%2014-00-31.png)
+
+![Screenshot from 2025-12-14 14-22-58](Screenshot%20from%202025-12-14%2014-22-58.png)
+
+![Screenshot from 2025-12-14 14-23-39](Screenshot%20from%202025-12-14%2014-23-39.png)
+
+![Screenshot from 2025-12-14 14-28-17](Screenshot%20from%202025-12-14%2014-28-17.png)
+
+![Screenshot from 2025-12-14 14-28-25](Screenshot%20from%202025-12-14%2014-28-25.png)
+
+![Screenshot from 2025-12-14 14-32-37](Screenshot%20from%202025-12-14%2014-32-37.png)
+
+![Screenshot from 2025-12-14 14-32-45](Screenshot%20from%202025-12-14%2014-32-45.png)
 
 
 

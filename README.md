@@ -474,6 +474,9 @@ The inverter layout was opened in MAGIC for inspection and modification.
 
 ![Screenshot from 2025-12-14 19-48-23](Screenshot%20from%202025-12-14%2019-48-23.png)
 
+![Screenshot 2025-12-14 21-02-32](Screenshot%202025-12-14%20210232.png)
+
+
 
 # Day 5: Power Planning, Routing, and GDSII Generation
 

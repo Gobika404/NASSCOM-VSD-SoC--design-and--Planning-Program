@@ -366,6 +366,57 @@ Once the layout was completed, parasitic extraction was performed to capture res
 ![Screenshot 19-53-30](Screenshot%20from%202025-12-13%2019-53-30.png)
 
 
+# Day 4: Timing-Aware Physical Design and Custom Cell Integration
+
+## Session Summary
+The fourth day of the workshop concentrated on understanding timing behavior before routing, aligning standard cell layouts with routing tracks, and integrating a custom-designed inverter into the OpenLANE flow. The lab sessions emphasized timing optimization, LEF generation, synthesis tuning, and post-synthesis timing verification.
+
+
+## Pre-Routing Timing Perspective
+Before detailed routing begins, it is critical to evaluate timing to prevent late-stage violations. Pre-layout timing analysis allows designers to identify long paths, improper buffering, and clock-related issues early in the flow.
+
+A well-structured clock distribution is necessary to:
+- Control clock skew
+- Reduce timing uncertainty
+- Improve overall design reliability
+
+
+## Delay-Based Timing Representation
+
+## Concept of Delay Tables
+Delay tables capture how much time signals take to propagate through logic cells and interconnects under different conditions. These values form the basis for estimating path delays during synthesis and placement.
+
+## Application in Design Flow
+- Used by synthesis tools to calculate arrival and required times
+- Helps tools choose optimal cell sizes and buffering
+- Assists in meeting timing targets before physical routing
+
+
+## From Layout Grids to Routing Tracks
+
+## Why Track Alignment Matters
+Physical layouts are drawn on grids, while routing follows predefined tracks provided by the technology. Converting grid-based layouts to track-aligned designs ensures compatibility with automated routing.
+
+## Cell Layout Constraints
+- Pins should lie on valid routing intersections
+- Cell width must align with horizontal track pitch
+- Cell height must match vertical track spacing
+
+
+## Track Configuration Details
+Track definitions are provided through the tracks.info file, which includes:
+- Track pitch values
+- Layer-specific routing directions
+- Spacing constraints
+
+This information guides both cell layout and routing feasibility.
+
+
+## Day 4 Lab Work: Custom Inverter Preparation
+
+## Loading the Inverter Layout
+The inverter layout was opened in MAGIC for inspection and modification.
+
 
 
 
